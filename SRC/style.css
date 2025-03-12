@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    display:flex;
+    justify-content: center;
+}
+#outer-box{
+    margin-top:50px;
+    padding-bottom: 40px;
+    background-color: #98D2C0;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+#heading{
+
+ background-color: #205781;
+ border-top-left-radius: 15px;
+
+
+
+}
+
+#height,#weight{
+
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      margin-right:50px;
+
+      padding-top: 50px;
+}
+#height-input{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+#weight-input{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+#inner-box{
+    background-color: #d1d48c;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-bottom:50px;
+    border-top-left-radius: 15px;
+} 
+#result{
+    display: flex;
+
+    padding-right: 150px;
+    background-color: #F6F8D5;
+    margin-right: 25px;
+    margin-left:25px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 25px;
+}
+#heading2{
+    margin-left: 50px;
+    color:#EAEAEA;
+    font-family: "Press Start 2P", system-ui;
+   font-weight: 100;
+   font-style: normal;
+   font-size:25px;
+   padding-top: 10px;
+   padding-right: 25px;
+}
+body{
+    background-color: #F5F5F5;
+}
+button{
+
+    height: 40px;
+    width: 70px;
+    background-color: rgb(62, 91, 154);
+    color:#EAEAEA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    cursor:grabbing;
+    border-radius: 15px;
+    border:none;
+    box-shadow: 0 5px #5a8e7d;
+    
+}
+button:hover span{
+    padding-right:5px;
+    opacity: 1;
+    transition:all 0.5s;
+}
+button:hover span:after{
+    padding-right:0px;
+    opacity:1;
+    transition:all 0.5s;
+}
+button span{
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #3282c0;
+}
+button:active{
+    background-color: #3282c0;
+    box-shadow: 0 2px #3f6358 ;
+    transform: translate(4px);
+}
+#result1{
+    padding-top: 10px;
+    margin-right:-100px;
+}
