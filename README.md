@@ -16,16 +16,10 @@ A **simple and responsive BMI (Body Mass Index) Calculator** built using **HTML,
 
 ## 📸 Demo Screenshot
 
-![BMI Calculator Screenshot](screenshot.png) <!-- Optional: Add a screenshot image in your project folder -->
+![BMI Calculator Screenshot](/SRC/image/screenshot.png) <!-- Optional: Add a screenshot image in your project folder -->
 
 ---
 
-## 🚀 Live Demo
-
-> [Click here to see the live demo](https://your-live-demo-link.com)  
-*(Add your GitHub Pages / Netlify / Vercel link here if hosted)*
-
----
 
 ## 📂 Project Structure
 ```
